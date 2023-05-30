@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Button from '@/components/ui/button.svelte';
+</script>
+
+<h1 class="text-blue-500 text-4xl">Welcome to SvelteKit</h1>
+<Button on:click={() => alert('hello')}>Click me</Button>
